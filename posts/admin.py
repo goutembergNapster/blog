@@ -10,7 +10,6 @@ class PostAdmin(admin.ModelAdmin):
     list_display_links = ('id', 'titulo_post',)
     
 admin.site.register(Post, PostAdmin)
-
 """
 from django.contrib import admin
 from .models import Post
